@@ -4,8 +4,8 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 nltk.download('vader_lexicon')
 s = SentimentIntensityAnalyzer()
-st.set_page_config(page_title="Sentiment Analyser (Abhay Nath)")
-st.title("Sentiment Analyser by Abhay Nath")
+st.set_page_config(page_title="Sentiment Analyzer (Abhay Nath)")
+st.title("Sentiment Analyzer by Abhay Nath")
 text = st.text_area("Enter your text:")
 if st.button("Analyze"):
     if text:
